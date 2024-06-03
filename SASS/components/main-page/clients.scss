@@ -1,0 +1,115 @@
+.clients-container {
+    border: 2px solid #000;
+  }
+  
+  /* Hover effect */
+  .clients-container:hover {
+    border-color: #2196F3;
+  }
+  
+  .clients-item:hover .clients-box svg {
+    fill: #2196F3;
+    border-color: #2196F3;
+  }
+  
+  .clients-title {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-top: 93px;
+    margin-bottom: 50px;
+  }
+  
+  
+  .clients-container {
+    display: flex;
+    list-style: none;
+    transition-property:  border-color ;
+    transition-duration:250ms;
+    transition-timing-function: cubic-bezier(0,.99,.12,.28);
+  }
+  
+  
+  .clients-list {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .clients-item {
+    width: 172px;
+    height: 92px;
+    background-color: var(--primary-color);
+    margin-bottom: 94px;
+    transition-property:  fill , border-color ;
+    transition-duration:250ms;
+    transition-timing-function: cubic-bezier(0,.99,.12,.28);
+  }
+  
+  .icon-company-tegline {
+    width: 106px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+  }
+  
+  .icon-brand {
+    width: 106px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    transition: fill 0.3s;
+  }
+  
+  .icon-company {
+    width: 106px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    transition: fill 0.3s;
+  }
+  
+  
+  .icon-foster-peters {
+    width: 106px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    transition: fill 0.3s;
+  }
+  
+  
+  .icon-ya-go {
+    width: 106px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    transition: fill 0.3s;
+  }
+  
+  
+  .company-tag-here {
+    width: 106px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    transition: fill 0.3s;
+  }
+  

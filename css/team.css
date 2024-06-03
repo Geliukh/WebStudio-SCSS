@@ -1,0 +1,136 @@
+.team-container {
+  gap: 100px;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
+}
+
+.team-item {
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-image {
+  width: 270px;
+  height: 260px;
+}
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #F5F4FA;
+}
+
+.team-item {
+  background: #FFF;
+}
+
+.team-title {
+  color: var(--title-color);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-name {
+  color: var(--title-color);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.03;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.team-text {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.03;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.team-list-icons {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.instagram-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+.team-link:hover {
+  background-color: #2196F3;
+  fill: #FFF;
+}
+
+.team-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0, 0.99, 0.12, 0.28);
+}
+
+.twitter-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0, 0.99, 0.12, 0.28);
+}
+
+.facebook-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0, 0.99, 0.12, 0.28);
+}
+
+.linkedin-icon {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0, 0.99, 0.12, 0.28);
+}
+
+.instagram-icon {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0, 0.99, 0.12, 0.28);
+}
+
+.twitter-icon:hover {
+  fill: #FFF;
+}
+
+.instagram-icon:hover {
+  fill: #FFF;
+}
+
+.linkedin-icon:hover {
+  fill: #FFF;
+}
+
+.facebook-icon:hover {
+  fill: #FFF;
+}
+
+.linkedin-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}/*# sourceMappingURL=team.css.map */
