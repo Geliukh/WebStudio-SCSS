@@ -1,4 +1,18 @@
-header {
+body {
+  font-family: Roboto;
+  letter-spacing: 0.03em;
+  list-style: none;
+}
+
+.container {
+  /* outline: solid red; */
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
     padding-top: 24px;
     padding-bottom: 25px;
   }

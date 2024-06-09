@@ -87,7 +87,7 @@ main {
   }
   
   .hero-images {
-    flex-basis: calc((100%-60px) /3);
+    // flex-basis: calc((100%-60px) /3);
     padding-bottom: 20px;
     border: 1px solid #EEE;
     transition-property:  box-shadow ;
