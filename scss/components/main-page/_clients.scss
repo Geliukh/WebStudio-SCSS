@@ -44,7 +44,7 @@
   .clients-item {
     width: 172px;
     height: 92px;
-    background-color: var(--primary-color);
+    background-color: var($primary-color);
     margin-bottom: 94px;
     transition-property:  fill , border-color ;
     transition-duration:250ms;

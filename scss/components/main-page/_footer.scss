@@ -1,11 +1,11 @@
 .footer {
-    background-color: var(--background-color);
+    background-color: var($background-color);
     padding-top: 60px;
     padding-bottom: 60px;
   }
   
   .footer-word {
-    color: var(--link-color);
+    color: var($link-color);
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -13,7 +13,7 @@
   }
   
   .footer-2word {
-    color: var(--primary-color);
+    color: var($primary-color);
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -21,7 +21,7 @@
   }
   
   .footer-title {
-    color: var(--word-color);
+    color: var($word-color);
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -46,7 +46,7 @@
   }
   
   .footer-address {
-    color: var(--primary-color);
+    color: var($primary-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -56,7 +56,7 @@
   
   .footer-mail {
     text-decoration: none;
-    color: var(--text-color);
+    color: var($text-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -66,7 +66,7 @@
   
   .footer-tel {
     text-decoration: none;
-    color: var(--text-color);
+    color: var($text-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
