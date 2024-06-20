@@ -1,9 +1,5 @@
 .container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  @include container-box();
 }
 
 .clients-container {
@@ -23,11 +19,9 @@
   .clients-title {
     color: #212121;
     text-align: center;
-    font-size: 36px;
+    @include title-large ();
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
-    letter-spacing: 1.08px;
     margin-top: 93px;
     margin-bottom: 50px;
   }
@@ -60,29 +54,20 @@
   }
   
   .icon-company-tegline {
-    width: 106px;
-    height: 60px;
-    border-radius: 4px;
-    padding: 16px 32px;
+    @include icon-tags ();
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
   }
   
   .icon-brand {
-    width: 106px;
-    height: 60px;
-    border-radius: 4px;
-    padding: 16px 32px;
+    @include icon-tags ();
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     transition: fill 0.3s;
   }
   
   .icon-company {
-    width: 106px;
-    height: 60px;
-    border-radius: 4px;
-    padding: 16px 32px;
+    @include icon-tags ();
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     transition: fill 0.3s;
@@ -90,10 +75,7 @@
   
   
   .icon-foster-peters {
-    width: 106px;
-    height: 60px;
-    border-radius: 4px;
-    padding: 16px 32px;
+    @include icon-tags ();
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     transition: fill 0.3s;
@@ -101,10 +83,7 @@
   
   
   .icon-ya-go {
-    width: 106px;
-    height: 60px;
-    border-radius: 4px;
-    padding: 16px 32px;
+    @include icon-tags ();
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     transition: fill 0.3s;
@@ -112,10 +91,7 @@
   
   
   .company-tag-here {
-    width: 106px;
-    height: 60px;
-    border-radius: 4px;
-    padding: 16px 32px;
+    @include icon-tags ();
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     transition: fill 0.3s;

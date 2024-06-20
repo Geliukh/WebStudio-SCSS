@@ -1,0 +1,32 @@
+@mixin container-box () {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin icon-tags () {
+    width: 106px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+@mixin title-large () {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+@mixin title-small () {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+@mixin title-small-two () {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}

@@ -1,9 +1,5 @@
 .container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  @include container-box();
 }
 
 .footer {
@@ -39,11 +35,9 @@
   
   .footer-icons-title {
     color: #FFF;
-  font-size: 14px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.42px;
+  @include title-small ();
   text-transform: uppercase;
   margin-bottom: 32px;
   }
@@ -55,30 +49,24 @@
   
   .footer-address {
     color: var($primary-color);
-    font-size: 14px;
-    font-weight: 400;
+    @include title-small-two ();
     line-height: 24px;
-    letter-spacing: 0.03em;
     margin-top: 20px;
   }
   
   .footer-mail {
     text-decoration: none;
     color: var($text-color);
-    font-size: 14px;
-    font-weight: 400;
+    @include title-small-two ();
     line-height: 24px;
-    letter-spacing: 0.03em;
     margin-top: 20px;
   }
   
   .footer-tel {
     text-decoration: none;
     color: var($text-color);
-    font-size: 14px;
-    font-weight: 400;
+    @include title-small-two ();
     line-height: 24px;
-    letter-spacing: 0.03em;
   }
   
   .footer {
@@ -112,11 +100,9 @@
   .footer-form-title {
     color: #fff;
     font-family: Roboto;
-    font-size: 14px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.42px;
+    @include title-small ();
     text-transform: uppercase;
     margin-bottom: 20px;
   }
