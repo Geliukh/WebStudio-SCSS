@@ -366,7 +366,15 @@ table {
   border-spacing: 0;
 }
 
-header {
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -537,6 +545,14 @@ header {
   color: var(#2196f3);
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../photos/heroimage.png);
   padding-top: 200px;
@@ -624,6 +640,14 @@ header {
     transform: translateX(0%);
   }
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .info-container {
   display: flex;
   gap: 100px;
@@ -698,6 +722,14 @@ header {
   animation: rollOut 2s forwards;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .specialisation-container {
   justify-content: center;
   row-gap: 50px;
@@ -741,6 +773,14 @@ header {
   top: 224px;
   text-align: center;
   color: white;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-container {
@@ -880,6 +920,14 @@ header {
   fill: #AFB1B8;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .clients-container {
   border: 2px solid #000;
 }
@@ -988,6 +1036,14 @@ header {
   fill: #AFB1B8;
   border: 1px solid #AFB1B8;
   transition: fill 0.3s;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {

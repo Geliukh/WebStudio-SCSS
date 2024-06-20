@@ -1,3 +1,11 @@
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../photos/heroimage.png);
     padding-top: 200px;
@@ -8,7 +16,6 @@
     margin-right: auto;
   }
   
-  .hero-container {}
   
   .hero-title {
     color: var($primary-color);
