@@ -691,11 +691,11 @@ main {
 
 .footer-icons-title {
   color: #FFF;
-  font-size: 14px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.42px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 32px;
 }
@@ -709,8 +709,8 @@ main {
   color: var(#ffffff);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0.03em;
+  line-height: 24px;
   margin-top: 20px;
 }
 
@@ -719,8 +719,8 @@ main {
   color: var(#757575);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0.03em;
+  line-height: 24px;
   margin-top: 20px;
 }
 
@@ -729,8 +729,8 @@ main {
   color: var(#757575);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0.03em;
+  line-height: 24px;
 }
 
 .footer {
@@ -784,7 +784,7 @@ main {
   color: var(#212121);
   font-size: 36px;
   font-weight: 700;
-  letter-spacing: 0.03em;
+  letter-spacing: 1.08px;
   margin-bottom: 50px;
   text-align: center;
 }
